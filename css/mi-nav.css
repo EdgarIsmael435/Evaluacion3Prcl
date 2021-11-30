@@ -5,6 +5,8 @@ mi-nav {
 }
 
 mi-nav ul {
+  background-color: white;
+  color: rgb(71, 36, 36);
   display: flex;
   justify-content: center;
   align-items: center;
