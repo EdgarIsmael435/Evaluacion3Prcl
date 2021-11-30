@@ -5,12 +5,11 @@
 :root {
   font-family: sans-serif;
   --col-active: #4646462c;
-  --color-header: rgb(67, 126, 65);
-  --colorMiNav: rgb(71, 36, 36);
+  --color-header: white;
+  --colorMiNav: white;
 }
 
 body {
-  font-family: 'Century Gothic';
   max-width: 640px;
   margin: 0 auto;
   padding: 0.5rem;
