@@ -4,7 +4,9 @@ mi-nav {
     var(--colorMiNav);
 }
 
-mi-nav ul {  
+mi-nav ul {
+  background-color: white;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,7 +17,6 @@ mi-nav ul {
 }
 
 mi-nav ul li {
-  background-color: white;
   color: rgb(71, 36, 36);
   margin: 0.5rem;
 }
