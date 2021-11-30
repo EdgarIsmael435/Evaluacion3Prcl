@@ -6,7 +6,7 @@
     content="width=device-width,
        initial-scale=1.0">
   <title>
-    Alumno Nuevo
+    Empleado Nuevo
   </title>
   <script
     src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
@@ -29,7 +29,7 @@
   <form name="forma">
     <mi-nav></mi-nav>
     <header>
-      <h1>Alumno Nuevo</h1>
+      <h1>Nuevo empleado</h1>
       <div class="herramientas">
         <a
           href="alumnos.html">
@@ -39,13 +39,6 @@
         </button>
       </div>
     </header>
-    <p>
-      <label>
-        Matricula
-        <input name="matricula"
-          type="text" required>
-      </label>
-    </p>
     <p>
       <label>
         Nombre
@@ -62,14 +55,21 @@
     </p>
     <p>
       <label>
-        Grupo
+        Departamento
         <input name="grupo"
+          type="text" required>
+      </label>
+    </p>
+     <p>
+      <label>
+        Clave
+        <input name="matricula"
           type="text" required>
       </label>
     </p>
     <p>
       <label>
-        Fecha
+        Fecha de ingreso
         <input name="fecha"
           type="date" required>
       </label>
